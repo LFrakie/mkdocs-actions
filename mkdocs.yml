@@ -1,0 +1,39 @@
+# Información del proyecto 
+site_name: DOCS LFRAKIE
+site_description : Un tema de diseño de materiales para MkDocs
+site_author :  FranK WMM
+
+docs_dir: docs-obsi
+theme:
+  language: es
+  name: material
+  palette:
+
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo nocturno
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo normal
+
+  features:
+    - toc.integrate
+
+extra:
+#  social: #Agrega iconos de redes sociales
+#    - icon: fontawesome/brands/twitter
+#      link: https://twitter.com/squidfunk
+  
+  generator: false #Este nos sirve para eliminar el footer de nuestro sitio
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
