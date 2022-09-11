@@ -3,8 +3,8 @@ site_name: DOCS LFRAKIE
 site_description : Description MkDocs
 site_author :  FranK WMM
 
-docs_dir: /
-site_dir: ../
+docs_dir: .
+# site_dir: ../
 
 theme:
   language: es
