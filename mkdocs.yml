@@ -4,7 +4,7 @@ site_description : Description MkDocs
 site_author :  FranK WMM
 
 docs_dir: /
-site_dir: ../site
+site_dir: ../
 
 theme:
   language: es
