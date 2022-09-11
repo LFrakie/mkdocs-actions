@@ -7,8 +7,8 @@ docs_dir: . #Funciona solo con --> plugins: - same-dir
 # site_dir: ../
 
 nav:
-    - 'index.md'
-    - 'about.md'
+    - Home: 'index.md'
+    - Aboit: 'about.md'
 
 remote_branch: public    
 
