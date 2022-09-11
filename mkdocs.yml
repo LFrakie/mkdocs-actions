@@ -4,6 +4,8 @@ site_description : Description MkDocs
 site_author :  FranK WMM
 
 docs_dir: /
+site_dir: ../site
+
 theme:
   language: es
   name: material
@@ -37,3 +39,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.snippets
+  - same-dir
