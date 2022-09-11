@@ -3,12 +3,9 @@ site_name: DOCS LFRAKIE
 site_description : Description MkDocs
 site_author :  FranK WMM
 
-docs_dir: . #Funciona solo con --> plugins: - same-dir
+docs_dir: . #Funciona solo con --> plugins: - same-dir https://github.com/oprypin/mkdocs-same-dir
 # site_dir: ../
 
-nav:
-    - Home: 'index.md'
-    - Aboit: 'about.md'
 
 remote_branch: public    
 
