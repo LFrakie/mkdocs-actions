@@ -3,8 +3,10 @@ site_name: DOCS LFRAKIE
 site_description : Description MkDocs
 site_author :  FranK WMM
 
-docs_dir: .
+docs_dir: . #Funciona solo con --> plugins: - same-dir
 # site_dir: ../
+
+remote_branch: public    
 
 plugins:
   - same-dir
