@@ -9,8 +9,8 @@ docs_dir: . #Funciona solo con --> plugins: - same-dir https://github.com/oprypi
 
 remote_branch: public    
 
-plugins:
-  - same-dir
+# plugins:
+#   - same-dir
 
 theme:
   language: es
