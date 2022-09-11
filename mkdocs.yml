@@ -6,6 +6,9 @@ site_author :  FranK WMM
 docs_dir: .
 # site_dir: ../
 
+plugins:
+  - same-dir
+
 theme:
   language: es
   name: material
@@ -39,4 +42,3 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.snippets
-  - same-dir
