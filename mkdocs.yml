@@ -3,7 +3,7 @@ site_name: DOCS LFRAKIE
 site_description : Un tema de diseño de materiales para MkDocs
 site_author :  FranK WMM
 
-docs_dir: docs-obsi
+docs_dir: docs
 theme:
   language: es
   name: material
