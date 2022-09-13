@@ -1,4 +1,4 @@
-# mkdocs-actions-Template
+# MKdocs-GHActions-Template
 
 Este es un template de MKDocs-actions
 
