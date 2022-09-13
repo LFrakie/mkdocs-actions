@@ -10,7 +10,7 @@ remote_branch: public
 
 plugins:
   - same-dir
-  - search: #Implementa Buscador en ESpañol
+  - search: #Implementa Buscador en ESpañol https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
       lang: es
 
 theme:
