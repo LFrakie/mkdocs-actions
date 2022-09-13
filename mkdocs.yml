@@ -10,6 +10,8 @@ remote_branch: public
 
 plugins:
   - same-dir
+  - search: #Implementa Buscador en ESpañol
+      lang: es
 
 theme:
   language: es
